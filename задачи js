@@ -1,0 +1,25 @@
+Задача №1
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задача № 1</title>
+</head>
+<body>
+    <script>
+        const DOLLAR = 88.76; 
+        const EURO = 96.69; 
+        let rub = prompt ( "Сколько хотите сконвертировать?" );
+
+        // rub = parseInt(rub, 10);        
+        alert("Доллары: "  + (rub/DOLLAR).toFixed(3) + "\nЕвро: " + (rub/EURO).toFixed(2));
+    </script>
+</body>
+</html>
+
+
+
+
+
